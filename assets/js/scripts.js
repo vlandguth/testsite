@@ -3,10 +3,6 @@ console.log('Hey Browser!');
 
 
       //window scrolling
-      $(document).scroll(function() {
-        resizeHeader();
-      });
-    
     function resizeHeader() {
       var _posScroll = window.scrollY;
       var _maxScroll = 50;
