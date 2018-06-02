@@ -1,0 +1,48 @@
+h1{
+    margin: 50px 0 30px;
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color:whitesmoke;
+    text-align:center;
+    font-weight:300;
+  }
+  
+  .grow{
+    overflow:hidden;
+    max-width:400px;
+    max-height:300px;
+  }
+  
+  .card img{
+    transition: all .65s ease-in-out;
+  }
+  
+  .card img:hover{
+    transform: scale(1.08);
+  }
+  
+  
+  .work{
+    margin:0 auto;
+    max-width:1200px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  
+  .card{
+    margin: 20px;
+    background: #4A4A4A;
+    width:400px;
+    height:350px;
+  }
+  
+  .card h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:250;
+    letter-spacing:1px;
+    color:white;
+    text-align:center;
+    margin-top:15px;
+  }
+  
