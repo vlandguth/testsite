@@ -2,7 +2,9 @@ body{
   font-family: europa, sans-serif;
   background-color:#4A4A4A;
 }
-
+main{
+  height:1000px;
+}
 /* Header */
 .sticky-header{
   display:flex;
@@ -31,11 +33,10 @@ body{
   width:50px;
 }
 
-.sticky-header ul, nav.social{
+.sticky-header nav ul{
   display:flex;
   list-style-type:none;
   align-items:center;
-  justify-content: center;
 }
 
 .sticky-header nav ul li a {
@@ -50,11 +51,25 @@ body{
   background: #A992E5;
 }
 
+/*the size that header and logo will be*/
+.small-header{ 
+  height:70px;
+}
+
+.small-header img{ 
+  width:50px;
+}
+
 .animate-item{
     transition: all .3s ;
 }
 /* Footer */
-nav.social a img {
+footer {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+footer nav a img {
     max-width: 30px;
     max-height: 30px;
     margin: 30px 15px;
@@ -62,6 +77,5 @@ nav.social a img {
 
 /* Main */
 main{
-  margin-top:150px;
   height:1000px;
 }
