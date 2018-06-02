@@ -1,14 +1,11 @@
 // Your Scripts
 console.log('Hey Browser!');
 
-$(document).ready(
-    function ()
-    {
+
       //window scrolling
       $(document).scroll(function() {
         resizeHeader();
       });
-    });
     
     function resizeHeader() {
       var _posScroll = window.scrollY;
