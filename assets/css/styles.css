@@ -23,6 +23,7 @@ body{
   display:flex;
   list-style-type:none;
   align-items:center;
+  justify-content: center;
 }
 
 .fixed-header nav ul li a {
