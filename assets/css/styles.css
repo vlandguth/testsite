@@ -19,13 +19,13 @@ body{
   width:100px; 
 }
 
-ul{
+.fixed-header ul, nav.social{
   display:flex;
   list-style-type:none;
   align-items:center;
 }
 
-nav ul li a {
+.fixed-header nav ul li a {
   text-decoration:none;
   padding:20px;
   border-radius: 15%;
@@ -33,7 +33,7 @@ nav ul li a {
   transition: all .4s ease-in-out;
 }
 
-nav ul li a:hover{
+.fixed-header nav ul li a:hover{
   background: #A992E5;
 }
 
@@ -50,12 +50,7 @@ nav ul li a:hover{
     transition: all .3s ;
 }
 /* Footer */
-footer {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-footer nav a img {
+nav.social a img {
     max-width: 30px;
     max-height: 30px;
     margin: 30px 15px;
