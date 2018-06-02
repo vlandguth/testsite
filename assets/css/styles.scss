@@ -1,8 +1,71 @@
 // Bulma Framework
-@import "bulma";
+// @import "bulma";
 
 // Your Styles
 
 body{
-    background: #663399;
-}
+    font-family: europa, sans-serif;
+    background-color:#4A4A4A;
+  }
+  main{
+    height:1000px;
+  }
+  /* Header */
+  .fixed-header{
+    position:fixed;
+    width:100%;
+    height:150px;
+    background-color:#181818;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .fixed-header img{
+    padding:0 10px;
+    width:100px; 
+  }
+  
+  ul{
+    display:flex;
+    list-style-type:none;
+    align-items:center;
+  }
+  
+  nav ul li a {
+    text-decoration:none;
+    padding:20px;
+    border-radius: 15%;
+    color: whitesmoke;
+    transition: all .4s ease-in-out;
+  }
+  
+  nav ul li a:hover{
+    background: #A992E5;
+  }
+  
+  /*the size that header and logo will be*/
+  .small-header{ 
+    height:70px;
+  }
+  
+  .small-header img{ 
+    width:50px;
+  }
+  
+  .animate-item{
+      transition: all .3s ;
+  }
+  /* Footer */
+  footer {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+  }
+  footer nav a img {
+      max-width: 30px;
+      max-height: 30px;
+      margin: 30px 15px;
+  }
+  
+  /* Main */
