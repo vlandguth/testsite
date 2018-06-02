@@ -45,7 +45,7 @@ main{
   padding:20px;
   border-radius: 15%;
   color: whitesmoke;
-  transition: all .4s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .sticky-header nav ul li a:hover{
@@ -61,9 +61,6 @@ main{
   width:50px;
 }
 
-.animate-item{
-    transition: all .3s ;
-}
 /* Footer */
 footer {
     display: flex;
