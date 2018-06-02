@@ -1,14 +1,17 @@
 <h1>Portfolio</h1>
 <main class="work">
+
+  {% for post in site.portfolio %}
   <a href="spaced.html">
     <section class="card">
       <div class="grow">
-        <img src="{{% site.portfolio.cover-image %}}" alt="{{% site.portfolio.title %}}">
+        <img src="{{ portfolio.cover-image }}" alt="{{ portfolio.title }}">
       </div> 
-      <h4>{{% site.portfolio.title %}}</h4> 
+      <h4>{{ portfolio.title }}</h4> 
     </section>
   </a>
-  
+  {% endfor %}
+
     <a href="inrix.html">
     <section class="card">
       <div class="grow">
