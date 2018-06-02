@@ -4,29 +4,41 @@ body{
 }
 
 /* Header */
-.fixed-header{
-  position:fixed;
-  width:100%;
-  height:150px;
-  background-color:#181818;
+.sticky-header{
   display:flex;
-  align-items:center;
   justify-content:center;
+  width:100%;
+  height:130px;
+  background-color:#231f20;
+  padding:10px;
 }
 
-.fixed-header img{
-  padding:0 10px;
-  width:100px; 
+.sticky-header img{ 
+  width:110px; 
+  margin:10px auto;
 }
 
-.fixed-header ul, nav.social{
+.fixed {
+  position: fixed;
+  top:0; 
+  left:0;
+  height:70px;
+  width: 100%; 
+  padding:10px;
+}
+
+.fixed img{ 
+  width:50px;
+}
+
+.sticky-header ul, nav.social{
   display:flex;
   list-style-type:none;
   align-items:center;
   justify-content: center;
 }
 
-.fixed-header nav ul li a {
+.sticky-header nav ul li a {
   text-decoration:none;
   padding:20px;
   border-radius: 15%;
@@ -34,17 +46,8 @@ body{
   transition: all .4s ease-in-out;
 }
 
-.fixed-header nav ul li a:hover{
+.sticky-header nav ul li a:hover{
   background: #A992E5;
-}
-
-/*the size that header and logo will be*/
-.small-header{ 
-  height:70px;
-}
-
-.small-header img{ 
-  width:50px;
 }
 
 .animate-item{
