@@ -1,7 +1,7 @@
 ---
 title: Weather.com INRIX Inc
 date: 2018-06-03 00:41:00 Z
-Field name: 
+cover-image: "/uploads/CarplayMockup_min.png"
 ---
 
 At INRIX, I worked on a connected car software called OpenCar. I created a styleguide for the design team to use to streamline our process and maintain consistency across the different screens we were designing for. This required me to be very detail oriented and hyper focused on making each screen pixel perfect and well organized.
