@@ -59,6 +59,10 @@ header a, main a {
   text-decoration: none;
 }
 
+ul, header{
+  -webkit-padding-start: 0px;
+}
+
 /* Footer */
 footer {
   display: flex;
