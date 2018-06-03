@@ -16,6 +16,7 @@ main {
   height: 130px;
   background-color: #333;
   padding: 10px;
+  z-index: 1000;
 }
 
 .sticky-header img {
@@ -90,6 +91,8 @@ h1{
 }
 
 .card img{
+  width:400px;
+  height:300px;
   transition: all .65s ease-in-out;
 }
 
