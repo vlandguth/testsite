@@ -2,7 +2,7 @@
 <main class="work">
 
   {% for work in site.portfolio %}
-  <a href="spaced.html">
+  <a href="{{ work.url }}">
     <section class="card">
       <div class="grow">
         <img src="{{ work.cover-image }}" alt="{{ work.title }}">
@@ -11,4 +11,5 @@
     </section>
   </a>
   {% endfor %}
+  
 </main>
