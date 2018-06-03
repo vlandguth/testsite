@@ -1,13 +1,13 @@
 <h1>Portfolio</h1>
 <main class="work">
 
-  {% for page in site.portfolio %}
+  {% for work in site.portfolio %}
   <a href="spaced.html">
     <section class="card">
       <div class="grow">
-        <img src="{{ portfolio.cover-image }}" alt="{{ portfolio.title }}">
+        <img src="{{ work.cover-image }}" alt="{{ work.title }}">
       </div> 
-      <h4>{{ portfolio.title }}</h4> 
+      <h4>{{ work.title }}</h4> 
     </section>
   </a>
   {% endfor %}
